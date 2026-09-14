@@ -1,0 +1,35 @@
+.venv/
+models/
+projects/
+output/
+__pycache__/
+*.pyc
+.build/
+.chart-data-*/
+node_modules/
+
+# Local configuration and generated artifacts
+.env
+.env.*
+!.env.example
+*.log
+*.pptx
+*.safetensors
+*.ckpt
+*.onnx
+*.pt
+*.pth
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
+# Earlier Slidev experiments kept locally, outside the Forma application
+/build_example.py
+/finalize_example.mjs
+/inspect_example.py
+/run_example.py
+/run.py
+/smoke_render.py
+/package.json
+/package-lock.json

@@ -1,0 +1,9 @@
+pywebview==6.2.1
+requests>=2.32,<3
+Pillow>=11,<13
+python-pptx==1.0.2
+diffusers>=0.35,<0.38
+transformers>=4.49,<5
+accelerate>=1.2,<2
+safetensors>=0.5
+huggingface-hub>=0.34,<1
